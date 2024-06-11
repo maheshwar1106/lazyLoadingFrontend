@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.appBackGround {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(196, 194, 194);
+}
+
+.backGroundSetup {
+  width: 80%;
+  border-radius: 7px 7px 0px 0px;
+  background-color: white;
+  margin: 20px 0px 20px 0px;
+}
+
+.searchTab {
+  width: 100%;
+  height: 5rem;
+  border-radius: 7px 7px 0px 0px;
+  background-color: antiquewhite;
+}
+
+.tableBackGround {
+  background-color: white;
+  width: 100%;
+  height: 85%;
+
+  border-radius: 0px;
+}
+.tableBackGround table {
+  width: 100%;
+}
+
+.innerDataMapping li {
+  list-style-type: none;
+}
+.innerDataMapping li:last-child {
+  color: grey;
+}
+
+.imgCell {
+  height: 3.5rem;
+  width: 3rem;
+}
+
+.imgCell img {
+  height: 100%;
+
+  object-fit: contain;
+  width: 60%;
+}
+.tableStatusPending {
+  color: blueviolet;
+  background-color: rgb(204, 175, 231);
+  height: 1.5rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  width: 4rem;
+  text-align: center;
+}
+
+.tableStatusCompleted {
+  color: rgb(109, 109, 109);
+  background-color: rgb(229, 221, 221);
+  height: 1.5rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  width: 5rem;
+  text-align: center;
+}
+
+#tableHead{
+    font-weight: bolder;
+    
+}

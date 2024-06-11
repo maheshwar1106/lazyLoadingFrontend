@@ -1,0 +1,83 @@
+.skeleton {
+  background: #ddd;
+  margin: 10px 0px;
+  border-radius: 4px;
+}
+
+.skeletonSNo {
+  height: 1.3rem;
+  width: 60%;
+  background-color: #ddd;
+  animation: skeleton 2s infinite ease-out;
+  border-radius: 0.5rem;
+}
+
+.skeletonProjectDetails li {
+  height: 1rem;
+  background-color: #ddd;
+  list-style-type: none;
+  margin: 3px 0px;
+  padding: 0.1rem;
+  width: 60%; 
+  border-radius: 0.4rem;
+  animation: skeleton 2s infinite ease-out;
+}
+
+.skeletonRequestDetails li {
+  height: 1rem;
+  background-color: #ddd;
+  list-style-type: none;
+  margin: 3px 0px;
+  width: 70%;
+  animation: skeleton 2s infinite ease-out;
+  border-radius: 0.4rem;
+}
+
+.skeletonIandD li {
+  height: 1rem;
+  background-color: #ddd;
+  list-style-type: none;
+  margin: 3px 0px;
+  width: 90%;
+  border-radius: 0.4rem;
+  animation: skeleton 2s infinite ease-out;
+}
+
+.skeletonPI {
+  height: 1.2rem;
+  background-color: #ddd;
+  width: 90%;
+  animation: skeleton 2s infinite ease-out;
+  border-radius: 0.4rem;
+}
+
+.skeletonStatus {
+  height: 1.2rem;
+  background-color: #ddd;
+  animation: skeleton 2s infinite ease-out;
+  border-radius: 0.4rem;
+}
+
+.skeletonAction {
+  height: 1.5rem;
+  background-color: #ddd;
+  width: 70%;
+  animation: skeleton 2s infinite ease-out;
+}
+
+.skeletonAction {
+  height: 2rem;
+  width: 2rem;
+  animation: skeleton 2s infinite ease-out;
+  border-radius: 0.4rem;
+}
+
+@keyframes skeleton {
+  from {
+    background-color: #ddd;
+
+  }
+  to {
+    background-color: #b8b8b8;
+  }
+}
